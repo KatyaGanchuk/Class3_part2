@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+int n;
+cout << "Imput n";
+ cin >> n;
+const int size = n;
+int mas[size];
+for (int i = 0; i < size; i++)
+mas[i] = 2 + i * 2;
+for (int i = 0; i < size; i++)
+cout << "[" << i << "]" << mas[i] << endl;
+}
