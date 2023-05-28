@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main() {
+ int N;
+    cout << " N ";
+    cin >> N;
+	
+    int mas[N];
+    int value = 1;
+    for (int i = 0; i < N; i++) {
+        mas[i] = value; 
+        value += 2;
+    }
+	
+    cout << "Mas";
+    for (int i = 0; i < N; i++) {
+        cout << mas[i] << " "; 
+    }
+}
+або
+
+#include <iostream>
+
+using namespace std;
+int main() {
+int n;
+cout << "Imput n";
+ cin >> n;
+const int SIZE=n;
+int mas[SIZE];
+for (int i=1; i <= SIZE; i+=2){
+cout << i<< " ";
+}
+}
