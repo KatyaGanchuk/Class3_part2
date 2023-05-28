@@ -1,0 +1,19 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+int n,d,a;
+cout<<"Imput N"<<endl;
+    cin>>n;
+    cout<<"Imput A"<<endl;
+    cin>>a;
+    cout<<"Imput D"<<endl;
+    cin>>d;
+int mas[]{ n };
+
+for (int i = 0; i <= n; i++)
+{
+mas[i] = a*pow(d,i);
+cout << mas[i] << endl;
+}
+}
